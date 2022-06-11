@@ -21,6 +21,8 @@ body {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
+
+    text-decoration: none;
 }
 .page-header .logo {
     color: var(--primary-black-color);
@@ -43,7 +45,10 @@ body {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-
+    text-decoration: none;
+}
+.auth-nav .link {
+    color: var(--primary-text-color);
 }
 .site-nav .link:hover, 
 .site-nav .link:focus,
@@ -79,7 +84,7 @@ body {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.5;
-text-align: center;
+    text-align: center;
 }
 .visually-hidden {
     position: absolute;
@@ -122,14 +127,18 @@ text-align: center;
     background-color: var(--primary-white-color);
 }
 .member-list .descr,
-.member-list .title,
-.section-title {
-    text-align: center;
-}
-.member-list .descr {
+.member-list .title {
     font-size: 16px;
-line-height: 1.19;
+    line-height: 1.19;
 }
+.member-list .title {
+    font-style: normal;
+    font-weight: 500;
+}
+/* .member-list .descr {
+    font-size: 16px;
+    line-height: 1.19; */
+
 
 /* Buttons */
 .button.secondary {
@@ -199,6 +208,7 @@ line-height: 1.19;
 }
 .contact-mail, .contact-phone {
     color: var(--special-address-color);
+       text-decoration: none;
 }
 .contact-mail:hover, .contact-phone:hover,
 .contact-mail:focus, .contact-phone:focus {
@@ -208,6 +218,8 @@ line-height: 1.19;
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;
+
+
 }
 
 
